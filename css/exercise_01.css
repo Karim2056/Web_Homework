@@ -1,0 +1,27 @@
+.all-testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid;
+    padding: 15px;
+    background-color: #031725;
+    border-radius: 4px;
+}
+.review-group {
+    padding: 10px;
+}
+.review-title {
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+.reviewer-name {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 5px;
+}
